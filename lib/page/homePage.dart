@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
               ),
               Visibility(
                   visible: _isShow,
-                  child: Text("这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本",style: TextStyle(color: Colors.blue),)),
+                  child: Text("这是通过GIT进行使用的操作是一段文本这是一段文本这是一段文本这是一段文本这是一段文本",style: TextStyle(color: Colors.blue),)),
               IconButton(
                 icon:Icon(_isShow==true?Icons.keyboard_arrow_down:Icons.keyboard_arrow_up,size: 40,color: Colors.white),
                 onPressed: (){
