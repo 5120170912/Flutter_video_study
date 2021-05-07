@@ -2,6 +2,8 @@ import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:learn_demo/page/GridView.dart';
+import 'package:learn_demo/page/ListView.dart';
 import 'package:learn_demo/page/homePage.dart';
 
 void main() =>runApp(MyApp());//该函数传的是MyApp这个类的实例化
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
       ),
       //APP的界面开始写的地方
-      home: HomePage(),
+      home: GridViewPage(),
     );
   }
 }
