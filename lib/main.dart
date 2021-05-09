@@ -2,9 +2,17 @@ import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:learn_demo/page/ButtomPage.dart';
+import 'package:learn_demo/page/Container_buttom.dart';
 import 'package:learn_demo/page/GridView.dart';
+import 'package:learn_demo/page/IndexedStackPage.dart';
 import 'package:learn_demo/page/ListView.dart';
+import 'package:learn_demo/page/TextFilePage.dart';
 import 'package:learn_demo/page/homePage.dart';
+import 'package:learn_demo/page/inforWidgetPage.dart';
+import 'package:learn_demo/page/radioPage.dart';
+import 'package:learn_demo/page/remove_Container_Event.dart';
+import 'package:learn_demo/page/selectCardPage.dart';
 
 void main() =>runApp(MyApp());//该函数传的是MyApp这个类的实例化
 
@@ -21,7 +29,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
       ),
       //APP的界面开始写的地方
-      home: GridViewPage(),
+      home: SnackBarPage(),
     );
   }
 }
