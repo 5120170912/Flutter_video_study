@@ -4,9 +4,7 @@ Use study.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
+--这是一个小白用来学习Flutter的记录过程的仓库，用来保存一些练习案例的代码--
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
