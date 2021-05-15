@@ -20,12 +20,12 @@ class _TabBarTestPageState extends State<TabBarTest2Page> with SingleTickerProvi
     Tab(text: '少林',icon: Icon(Icons.pan_tool),),
     Tab(text: '武当',icon: Icon(Icons.dashboard),),
     Tab(text: '二妹',icon: Icon(Icons.list),),
-    Tab(text: '三页',icon: Icon(Icons.save),),
-    Tab(text: '四页',icon: Icon(Icons.save),),
-    Tab(text: '五页',icon: Icon(Icons.save),),
-    Tab(text: '六页',icon: Icon(Icons.save),),
-    Tab(text: '七页',icon: Icon(Icons.save),),
-    Tab(text: '八页',icon: Icon(Icons.save),),
+    Tab(text: '三页',icon: Icon(Icons.dashboard),),
+    Tab(text: '四页',icon: Icon(Icons.face),),
+    Tab(text: '五页',icon: Icon(Icons.g_translate),),
+    Tab(text: '六页',icon: Icon(Icons.wallpaper),),
+    Tab(text: '七页',icon: Icon(Icons.edit),),
+    Tab(text: '八页',icon: Icon(Icons.radio),),
   ];
 
   //页面列表
