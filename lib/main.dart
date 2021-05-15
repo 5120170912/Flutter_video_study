@@ -16,10 +16,13 @@ import 'package:learn_demo/page/radioPage.dart';
 import 'package:learn_demo/page/remove_Container_Event.dart';
 import 'package:learn_demo/page/selectCardPage.dart';
 import 'package:learn_demo/page/testPage.dart';
+import 'package:learn_demo/subnavigation_bar_learn/bottom_navigationbar_test.dart';
 
 import 'BasisLearnDemol/PackWidgetDemol.dart';
+import 'subnavigation_bar_learn/tabbar_test2_page.dart';
+import 'subnavigation_bar_learn/tabbar_test_page.dart';
 
-void main() =>runApp(MyApp2());//该函数传的是MyApp这个类的实例化
+void main() =>runApp(MyApp4());//该函数传的是MyApp这个类的实例化
 
 
 class MyApp extends StatelessWidget {
@@ -49,11 +52,43 @@ class MyApp2 extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.white,
       ),
-      home:pakeAWidget(),
+      home:pakeAWidget2(10),
     );
   }
 }
 
+
+///
+/// 底部导航栏演示案例app
+///
+class MyApp3 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: '底部导航栏学习app',
+      theme: ThemeData(
+        primaryColor: Colors.blue
+      ),
+      home: BottomNavigationBarTest(),
+    );
+  }
+}
+
+///
+/// 任意导航栏学习app
+///
+class MyApp4 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: '底部导航栏学习app',
+      theme: ThemeData(
+          primaryColor: Colors.blue
+      ),
+      home: TabBarTest2Page(),
+    );
+  }
+}
 
 
 
