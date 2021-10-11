@@ -62,6 +62,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_iconfont:
+    dependency: "direct main"
+    description:
+      path: "E:\\flutter_iconfont-master\\flutter_iconfont-master"
+      relative: false
+    source: path
+    version: "0.0.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter

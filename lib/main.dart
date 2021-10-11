@@ -17,12 +17,22 @@ import 'package:learn_demo/page/remove_Container_Event.dart';
 import 'package:learn_demo/page/selectCardPage.dart';
 import 'package:learn_demo/page/testPage.dart';
 import 'package:learn_demo/subnavigation_bar_learn/bottom_navigationbar_test.dart';
+import 'package:learn_demo/ui_learn/backdropfilter_widget.dart';
+import 'package:learn_demo/ui_learn/builder.dart';
+import 'package:learn_demo/ui_learn/clip_path_learn.dart';
+import 'package:learn_demo/ui_learn/function_widget.dart';
+import 'package:learn_demo/ui_learn/main_view.dart';
+import 'package:learn_demo/ui_learn/repaintBoundary_widget.dart';
 
 import 'BasisLearnDemol/PackWidgetDemol.dart';
+import 'assets_test/assets_test1.dart';
+import 'subnavigation_bar_learn/ios_home.dart';
 import 'subnavigation_bar_learn/tabbar_test2_page.dart';
 import 'subnavigation_bar_learn/tabbar_test_page.dart';
+import 'ui_learn/ui_page.dart';
+import 'ui_learn/ui_page2.dart';
 
-void main() =>runApp(MyApp4());//该函数传的是MyApp这个类的实例化
+void main() =>runApp(MyApp6());//该函数传的是MyApp这个类的实例化
 
 
 class MyApp extends StatelessWidget {
@@ -86,6 +96,40 @@ class MyApp4 extends StatelessWidget {
           primaryColor: Colors.blue
       ),
       home: TabBarTest2Page(),
+    );
+  }
+}
+
+///
+/// UI学习
+///
+
+class MyApp5 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'UI控件的学习',
+      theme: ThemeData(
+          primaryColor: Colors.blue
+      ),
+      home:RepaintBoundaryWidget(),
+    );
+  }
+}
+
+///
+///资源管理
+///
+
+class MyApp6 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: '资源管理的学习',
+      theme: ThemeData(
+          primaryColor: Colors.blue
+      ),
+      home:Assets_test1(),
     );
   }
 }
